@@ -7,7 +7,7 @@ const Plane =props =>{
     return(
     <mesh ref={ref} {...props}receiveShadow castShadow>
       <planeGeometry args={[50,50]} />
-      <meshPhysicalMaterial color={'black'} />
+      <meshPhysicalMaterial  color={'black'} />
     </mesh>
     )
   }
